@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.form{
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navBarStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1px solid rgb(221, 221, 221);
+  margin: 0px 10px;
+  height: 30px;
+  padding: 0px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputBarStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+  border: 0.1px solid rgb(221, 221, 221);
+  margin: 0px 10px;
+  height: 30px;
+  padding: 0px 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addBtnStyle {
+  margin-left: auto;
+}
+
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.workingStyle {
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px 30px;
+  padding: 0px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.workingBoxStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:flex-start;
+  border-radius: 30px;
+  border: 8px solid rgb(40, 187, 76);
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  padding: 0px 10px;
+}
+.workingBoxBtnStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.workingFontH{
+font-size: 24px;
+margin-left: 20px;
+font-weight: 700;
+letter-spacing:0.1px;
+}
+.workingFontH2{
+margin-top: 20px;
+margin-left: 20px;
+font-size: 14px;
+letter-spacing:0.1px;
+}
+.workBtn {
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(40, 187, 76)
 }
